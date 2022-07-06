@@ -1,0 +1,182 @@
+[
+	{
+		"id":"lith",
+		"lang":"Lithuanian",
+		"iso":"lit",
+		"assignment":{
+			"value":"yes",
+			"genders":[
+				{
+					"gloss":"masc",
+					"assignments":[]
+				},
+				{
+					"gloss":"fem",
+					"assignments":[]
+				}
+			]
+		},
+		"agreement":{
+			"value":"yes",
+			"references":[],
+			"paradigms":[
+				{
+					"paradigm":"adjectives",
+					"value":"yes",
+					"syncretism":[],
+					"references":[]
+				},
+				{
+					"paradigm":"finite verbs",
+					"value":"no",
+					"syncretism":[],
+					"references":[]
+				},
+				{
+					"paradigm":"verbal participle",
+					"value":"yes",
+					"syncretism":[],
+					"references":[]
+				},
+				{
+					"paradigm":"determiners/demonstratives",
+					"value":"yes",
+					"syncretism":[],
+					"references":[]
+				},
+				{
+					"paradigm":"numerals",
+					"class":"?",
+					"value":"yes",
+					"syncretism":[],
+					"references":[]
+				}
+			],
+			"conventions":[
+				{
+					"convention":"mixed-gender plural",
+					"paradigm":"",
+					"conditions":["",""],
+					"result":"",
+					"references":[
+						{
+							"source":"AdamsonSereikaite2019",
+							"pages":"6",
+							"example":"16",
+							"content":{
+								"nativetext":"Atletai yra aukšt-ì/*-os/*-a.",
+								"gloss":"athletes.M are tall-M/*-F/*-N",
+								"freetranslation":"Athletes (males and females/males) are tall.",
+								"explanation":"A plural professional noun ('athletes' in this case) triggers masculine agreement when it refers to a mixed group.",
+								"judgement":"OK"
+							}
+						},
+						{
+							"source":"AdamsonSereikaite2019",
+							"pages":"6",
+							"example":"17",
+							"content":{
+								"nativetext":"Atletės yra aukšt-os/*-ì/*-a.",
+								"gloss":"athletes.F are tall-F/*-M/*-N",
+								"freetranslation":"Athletes (females) are tall.",
+								"explanation":"A feminine plural refers exclusively to a group of women.",
+								"judgement":"OK"
+							}
+						}
+					]
+				},
+				{
+					"convention":"unknown gender animate",
+					"paradigm":"",
+					"conditions":["",""],
+					"result":"",
+					"references":[]
+				},
+				{
+					"convention":"mixed-gender humans in coordination",
+					"paradigm":"adjectives",
+					"result":"masc",
+					"references":[
+						{
+							"source":"AdamsonSereikaite2019",
+							"pages":"7",
+							"example":"22",
+							"content":{
+								"nativetext":"Vyras ir moteris buvo graž-ūs/*-ùs/*-ios/*-ì/*-ù.",
+								"gloss":"man.M and woman.F were beautiful-M.PL/*-M.SG/*-F.PL/*-F.SG/*-N",
+								"freetranslation":"The man and the woman were beautiful.",
+								"explanation":"Predicative agreement is necessarily resolved as masculine plural when each animate conjunct is singular and a masculine conjunct precedes a feminine one.",
+								"judgement":"OK"
+							}
+						},
+						{
+							"source":"AdamsonSereikaite2019",
+							"pages":"7",
+							"example":"23",
+							"content":{
+								"nativetext":"Moteris ir vyras buvo graž-ūs/*-ùs/*-ios/*-ì/*-ù.",
+								"gloss":"woman.F and man.M were beautiful-M.PL/*-M.SG/*-F.PL/*-F.SG/*-N",
+								"freetranslation":"The woman and the man were beautiful.",
+								"explanation":"Predicative agreement is necessarily resolved as masculine plural when each animate conjunct is singular and a feminine conjunct precedes a masculine one.",
+								"judgement":"OK"
+							}
+						}
+					]
+				},
+				{
+					"convention":"mixed-gender inanimates in coordination",
+					"paradigm":"adjectives",
+					"result":"masc",
+					"references":[
+						{
+							"source":"AdamsonSereikaite2019",
+							"pages":"7",
+							"example":"20",
+							"content":{
+								"nativetext":"Kėdė ir stalas buvo purvin-ì/*-as/*-os/*-à/*-a.",
+								"gloss":"chair.F and table.M were dirty-M.PL/*-M.SG/*-F.PL/*-F.SG/*-N",
+								"freetranslation":"The chair and the table were dirty.",
+								"explanation":"Predicative agreement is necessarily resolved as masculine plural when each inanimate conjunct is singular and a feminine conjunct precedes a masculine one.",
+								"judgement":"OK"
+							}
+						},
+						{
+							"source":"AdamsonSereikaite2019",
+							"pages":"7",
+							"example":"21",
+							"content":{
+								"nativetext":"Stalas ir kėdė buvo purvin-ì/*-as/*-os/*-à/*-a.",
+								"gloss":"table.M and chair.F were dirty-M.PL/*-M.SG/*-F.PL/*-F.SG/*-N",
+								"freetranslation":"The table and chair were dirty.",
+								"explanation":"Predicative agreement is necessarily resolved as masculine plural when each inanimate conjunct is singular and a masculine conjunct precedes a feminine one.",
+								"judgement":"OK"
+							}
+						}
+					]
+				},
+				{
+					"convention":"default loanwords",
+					"paradigm":"",
+					"conditions":["",""],
+					"result":"",
+					"references":[]
+				},
+				{
+					"convention":"interjections",
+					"paradigm":"",
+					"conditions":["",""],
+					"result":"",
+					"references":[]
+				},
+				{
+					"convention":"onomatopoeia",
+					"paradigm":"",
+					"conditions":["",""],
+					"result":"",
+					"references":[]
+				}
+			]
+		},
+	}
+]
+
