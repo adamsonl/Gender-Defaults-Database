@@ -1,0 +1,29 @@
+{
+    "exampletype":"interlinear",
+    "refkey":"jakdan2422",
+    "pages":"100-101",
+    "example":"2b",
+    "content":{
+        "words":[
+            {
+                "transcript":"ese",
+                "gloss":"these"
+            },
+            {
+                "transcript":"gisun",
+                "gloss":"word"
+            },
+            {
+                "transcript":"bi",
+                "gloss":"COP"
+            }
+        ],
+        "translations":[
+            {
+                "type":"free",
+                "content":"These are words."
+            }
+        ]
+    },
+    "subexamples":[]
+}

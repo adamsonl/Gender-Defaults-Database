@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jsonreader.js" defer></script>
+</head>
+<body>
+    <div class="halfdivcontainer">
+        <div class="halfdiv">
+            <p>Enter your example code below:</p>
+            <textarea name="inputbox" id="inputbox">
+[
+    {
+        "words":[
+            {
+                "text":"This",
+                "gloss":"DEM.PROX"
+            },
+            {
+                "text":"is",
+                "gloss":"COP.3SG"
+            },
+            {
+                "text":"an",
+                "gloss":"INDEF.DET"
+            },
+            {
+                "text":"example",
+                "gloss":"example"
+            },
+            {
+                "text":".",
+                "gloss":""
+            }
+        ],
+        "translation":"This is an example.",
+        "sources":[
+            {
+                "key":"authoryear1",
+                "pages":"1-45",
+                "example":"4b",
+                "notes":""
+            }
+        ]
+    },
+    {
+        "words":[
+            {
+                "text":"This",
+                "gloss":"DEM.PROX"
+            },
+            {
+                "text":"is",
+                "gloss":"COP.3SG"
+            },
+            {
+                "text":"one",
+                "gloss":"one"
+            },
+            {
+                "text":"too",
+                "gloss":"too"
+            },
+            {
+                "text":".",
+                "gloss":""
+            }
+        ],
+        "translation":"This is one too.",
+        "sources":[
+            {
+                "key":"authoryear2",
+                "pages":"72",
+                "example":"65c",
+                "notes":""
+            }
+        ]
+    }
+]
+            </textarea>
+        </div>
+        <div class="halfdiv">
+            <p>Enter your citation code below:</p>
+            <textarea name="citationbox" id="citationbox">
+[
+    {
+        "key":"authoryear1",
+        "htmlcite":"Doe 1994"
+    },
+    {
+        "key":"authoryear2",
+        "htmlcite":"Reynold"
+    },
+]
+            </textarea>
+        </div>
+    </div>
+    <button onclick="visualize()">Visualize!</button>
+    <p>Resulting HTML:</p>
+    <div id="outputdiv"></div>
+</body>
+</html>
